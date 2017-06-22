@@ -1,0 +1,28 @@
+{
+  "name": "hellow",
+  "version": "1.0.0",
+  "description": "This folder contains the sample code for the [Hello world][step-1] tutorial. Please refer to the tutorial for instructions on configuring, running, and deploying this sample.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node ./app.js",
+      "deploy": "gcloud preview app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbowman96/hellow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbowman96/hellow/issues"
+  },
+  "homepage": "https://github.com/sbowman96/hellow#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1"
+  }
+}
